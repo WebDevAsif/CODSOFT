@@ -7,7 +7,6 @@
 
   #header-text {
     font-size: 16px;
-    /* margin-top: 100%; */
     margin-top: 55vh;
   }
 
@@ -70,7 +69,6 @@
   nav .fa-solid {
     position: absolute;
     top: 25px;
-    /* left: 25px; */
     right: 40px;
     cursor: pointer;
   }
