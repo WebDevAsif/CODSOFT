@@ -14,7 +14,7 @@ Welcome to my Personal Portfolio Website project created during an internship at
 
 1. Clone the repository:
 
-   git clone https://github.com/WebDevAsif/CODSOFT/tree/main/portfolio-website-project.git
+   git clone https://github.com/WebDevAsif/CODSOFT/tree/main/portfolio-website-project
 
 2. Open the `index.html` file in your preferred web browser.
 
