@@ -35,7 +35,7 @@ Welcome to the Simple Calculator project! This project was created during an int
 
 - HTML: The structure of the calculator interface.
 - CSS: Styling to enhance the visual appeal.
-- JavaScript (`script.js`): Logic for handling button clicks and performing calculations.
+- JavaScript: Logic for handling button clicks and performing calculations.
 
 ## Contributing
 
