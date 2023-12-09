@@ -1,8 +1,6 @@
-// Selecting tab links and tab contents for the about section
 let tablinks = document.querySelectorAll(".tab-links");
 let tabcontents = document.querySelectorAll(".tab-contents");
 
-// Adding click event listeners to tab links for tab functionality
 tablinks.forEach(function (tablink) {
   tablink.addEventListener("click", function () {
     // Removing the "active-link" class from all tab links
@@ -24,13 +22,11 @@ tablinks.forEach(function (tablink) {
   });
 });
 
-// Selecting elements for the open and close buttons in the navigation bar
 let closeBtn = document.querySelector(".fa-xmark");
 let openBtn = document.querySelector(".fa-bars");
 let sideMenu = document.querySelector("#side-menu");
 let lists = document.querySelectorAll("ul li");
 
-// Adding click event listeners for the open and close buttons
 closeBtn.addEventListener("click", function () {
   sideMenu.classList.remove("active");
   openBtn.classList.remove("active");
@@ -43,7 +39,6 @@ openBtn.addEventListener("click", function () {
   closeBtn.classList.add("active");
 });
 
-// Adding click event listeners to the list items in the side menu to close the menu
 lists.forEach((list) => {
   list.addEventListener("click", () => {
     sideMenu.classList.remove("active");
